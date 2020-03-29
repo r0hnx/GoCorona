@@ -1,4 +1,3 @@
-import 'package:covid19/bloc/bloc_delegate.dart';
 import 'package:covid19/bloc/corona_bloc.dart';
 import 'package:covid19/ui/coronaHome.dart';
 import 'package:covid19/ui/screens/preventionScreens.dart';
@@ -14,7 +13,6 @@ void main() {
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-  BlocSupervisor.delegate = SimpleBlocDelegate();
   runApp(App());
 }
 

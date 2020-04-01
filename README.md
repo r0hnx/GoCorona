@@ -1,5 +1,7 @@
-# Go Corona  [![Twitter Follow](https://img.shields.io/twitter/follow/r0hnx?label=Follow&style=social)](https://twitter.com/r0hnx)
+# Go Corona  
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+![Build and Release apk](https://github.com/r0hnx/GoCorona/workflows/Build%20and%20Release%20apk/badge.svg)
+[![Twitter Follow](https://img.shields.io/twitter/follow/r0hnx?label=Follow&style=social)](https://twitter.com/r0hnx)
 
 A Flutter application to track the ongoing status of the COVID-19 cases. 
 

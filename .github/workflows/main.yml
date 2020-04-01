@@ -1,8 +1,8 @@
 on: push
-name: Build and Release apk
+name: build
 jobs:
   build:
-    name: Build APK
+    name: build apk
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1

@@ -1,6 +1,6 @@
 # Go Corona  
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
-![Build and Release apk](https://github.com/r0hnx/GoCorona/workflows/Build%20and%20Release%20apk/badge.svg)
+![build](https://github.com/r0hnx/GoCorona/workflows/build/badge.svg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/r0hnx?label=Follow&style=social)](https://twitter.com/r0hnx)
 ![GitHub stars](https://img.shields.io/github/stars/r0hnx/GoCorona?style=social)
 ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fr0hnx.github.io%2FGoCorona%2F)

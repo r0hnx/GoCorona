@@ -5,18 +5,18 @@ jobs:
     name: Build APK
     runs-on: ubuntu-latest
     steps:
-#     - uses: actions/checkout@v1
-#     - uses: actions/setup-java@v1
-#       with:
-#         java-version: '12.x'
-#     - uses: subosito/flutter-action@v1.2.0
-#       with:
-#         flutter-version: '1.9.1+hotfix.6'
-#     - run: flutter pub get
-    - uses: jeanluc243/Flutter-Deployment@0.1    
-#     - run: flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
-#     - name: Create a Release APK
-#       uses: ncipollo/release-action@v1
-#       with:
-#         artifacts: "build/app/outputs/apk/debug/*.apk"
-#         token: ${{ secrets.TOKEN }}
+    - uses: actions/checkout@v1
+    - uses: actions/setup-java@v1
+      with:
+        java-version: '12.x'
+    - uses: subosito/flutter-action@v1
+      with:
+        channel: 'stable' # or: 'dev' or 'beta'
+    - run: flutter pub get
+    - run: flutter test
+    - run: flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
+    - name: Create a Release APK
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "build/app/outputs/apk/debug/*.apk"
+        token: ${{ secrets.TOKEN }}

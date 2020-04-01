@@ -13,7 +13,9 @@ jobs:
       with:
         flutter-version: '1.9.1+hotfix.6'
     - run: flutter pub get
-    - run: flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
+    - name: Flutter Deployment
+      uses: jeanluc243/Flutter-Deployment@0.1
+#     - run: flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
     - name: Create a Release APK
       uses: ncipollo/release-action@v1
       with:

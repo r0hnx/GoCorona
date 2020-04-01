@@ -1,4 +1,4 @@
-# Go Corona  
+# Go Corona  [v1.1](https://github.com/r0hnx/GoCorona/releases/tag/v1.1)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 ![build](https://github.com/r0hnx/GoCorona/workflows/build/badge.svg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/r0hnx?label=Follow&style=social)](https://twitter.com/r0hnx)
